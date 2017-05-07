@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LocalBusiness</string>
+    <string name="local_business">Edeka Center Engels</string>
+    <string name="address">Adresse</string>
+    <string name="street">Unter Linden 284 \n50859 Köln</string>
+    <string name="phone_number">Telefonnummer</string>
+    <string name="actual_phone_number">0221 98743752</string>
+    <string name="opening_hours">Öffnungszeiten</string>
+    <string name="actual_opening_hours">täglich von 7–22 Uhr \naußer an Sonn- und Feiertagen</string>
+</resources>

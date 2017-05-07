@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.localbusiness.MainActivity">
+
+    <ImageView
+        android:id="@+id/edeka"
+        style="@style/edekaHeader"
+        android:src="@drawable/edeka" />
+
+    <TextView
+        android:id="@+id/edekaCenter"
+        style="@style/edekaCenter"
+        android:layout_below="@id/edeka"
+        android:background="@color/localBusinessBackground"
+        android:text="@string/local_business"
+        android:textColor="@color/localBusiness"
+        android:textSize="@dimen/local_business_tS" />
+
+    <ImageView
+        android:id="@+id/address_pin"
+        style="@style/smallImageViews"
+        android:layout_below="@id/edekaCenter"
+        android:src="@drawable/ic_room_black_24dp" />
+
+    <TextView
+        android:id="@+id/address"
+        style="@style/smallTextViews"
+        android:layout_below="@id/edekaCenter"
+        android:layout_marginTop="@dimen/address_mT"
+        android:text="@string/address" />
+
+    <TextView
+        android:id="@+id/street"
+        style="@style/bigTextViews"
+        android:layout_below="@id/address"
+        android:onClick="openMap"
+        android:text="@string/street"
+        android:textSize="@dimen/actual_address_tS" />
+
+    <ImageView
+        android:id="@+id/phone_icon"
+        style="@style/smallImageViews"
+        android:layout_below="@id/address_pin"
+        android:src="@drawable/ic_local_phone_black_24dp" />
+
+    <TextView
+        android:id="@+id/phone_number"
+        style="@style/smallTextViews"
+        android:layout_below="@id/street"
+        android:layout_marginTop="@dimen/phone_number_mT"
+        android:text="@string/phone_number" />
+
+    <TextView
+        android:id="@+id/actual_phone_number"
+        style="@style/bigTextViews"
+        android:layout_below="@id/phone_number"
+        android:layout_marginTop="@dimen/actual_phone_number_mT"
+        android:autoLink="phone"
+        android:text="@string/actual_phone_number"
+        android:textSize="@dimen/actual_phone_number_tS" />
+
+    <ImageView
+        style="@style/smallImageViews"
+        android:layout_height="@dimen/clock_lH"
+        android:layout_below="@id/phone_icon"
+        android:src="@drawable/ic_schedule_black_24dp" />
+
+    <TextView
+        android:id="@+id/opening_hours"
+        style="@style/smallTextViews"
+        android:layout_below="@id/actual_phone_number"
+        android:layout_marginTop="@dimen/opening_hours_mT"
+        android:text="@string/opening_hours" />
+
+    <TextView
+        style="@style/bigTextViews.actualOpeningHours"
+        android:layout_below="@id/opening_hours"
+        android:text="@string/actual_opening_hours" />
+</RelativeLayout>

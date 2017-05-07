@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#3F51B5</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <!-- Accent color of the app (e.g. for hyperlinks) -->
+    <color name="colorAccent">#3F51B5</color>
+
+    <!-- Color for the local business's name (as shown in the grey bar) -->
+    <color name="localBusiness">#FFFFFF</color>
+
+    <!-- Color for the grey bar in which the local business's name is shown -->
+    <color name="localBusinessBackground">#9E9E9E</color>
+
+</resources>

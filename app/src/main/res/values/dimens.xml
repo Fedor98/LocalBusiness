@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="local_business_tS">25sp</dimen>
+    <dimen name="address_mT">30dp</dimen>
+    <dimen name="actual_address_tS">20sp</dimen>
+    <dimen name="phone_number_mT">34dp</dimen>
+    <dimen name="actual_phone_number_mT">11dp</dimen>
+    <dimen name="actual_phone_number_tS">28sp</dimen>
+    <dimen name="clock_lH">87dp</dimen>
+    <dimen name="opening_hours_mT">35dp</dimen>
+</resources>
